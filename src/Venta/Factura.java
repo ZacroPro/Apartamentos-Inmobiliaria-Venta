@@ -1,5 +1,6 @@
-package TallerUltimobanco;
+package Venta;
 
+import Venta.Cuenta;
 import Utilidades.Control;
 import java.util.ArrayList;
 import java.util.List;

@@ -1,23 +1,25 @@
-package TallerUltimobanco;
+package Venta;
 
 import Utilidades.Control;
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Cuenta {
+public class Cuenta implements Serializable {
 
-    protected String Nombre; 
-    protected String Documento;
-    protected String Telefono;
-    protected String Cuenta;
-    protected String NumeroCuenta;
-    protected String movimiento;
-    protected String Fecha;
-    protected double Precio;
-    protected double Valor;
-    protected double Saldo;
+    private String Nombre; 
+    private String Documento;
+    private String Telefono;
+    private String Cuenta;
+    private String NumeroCuenta;
+    private String movimiento;
+    private String Fecha;
+    private double Precio;
+    private double Valor;
+    private double Saldo;
 
     Control movi;
+
 
     public Cuenta(String Nombre, String Documento, String Telefono, String Cuenta, String NumeroCuenta, String movimiento, String Fecha, double Precio, double Valor, double Saldo, Control movi) {
         this.Nombre = Nombre;
@@ -33,7 +35,6 @@ public class Cuenta {
         this.movi = movi;
     }
 
-  
 
     public Cuenta() {
         this.movi = new Control();

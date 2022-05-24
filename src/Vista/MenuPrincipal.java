@@ -2,8 +2,8 @@ package Vista;
 
 
 
-import TallerUltimobanco.Cuenta;
-import TallerUltimobanco.Factura;
+import Venta.Cuenta;
+import Venta.Factura;
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.List;
