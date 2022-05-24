@@ -633,7 +633,7 @@ public class MenuPrincipal extends javax.swing.JFrame {
                     fac.setNombre(txtNombre.getText());
                     fac.setTelefono(txtTelefono.getText());
                     fac.setCuenta("Cuenta Ahorro");
-                    int numeroFactura = r.nextInt(3);
+                    int numeroFactura = r.nextInt(6) + 63256332;
                     fac.setNumeroCuenta(String.valueOf(numeroFactura));
                     fac.setSaldo(Double.parseDouble(txtSaldo.getText()));
                     fac.setPrecio(180000000 - fac.getSaldo());
@@ -650,7 +650,7 @@ public class MenuPrincipal extends javax.swing.JFrame {
                     fac.setNombre(txtNombre.getText());
                     fac.setTelefono(txtTelefono.getText());
                     fac.setCuenta("Cuenta Ahorro");
-                    int numeroFactura = r.nextInt(2);
+                    int numeroFactura = r.nextInt(6) + 63256332;
                     fac.setNumeroCuenta(String.valueOf(numeroFactura));
                     fac.setSaldo(Double.parseDouble(txtSaldo.getText()));
                     fac.setPrecio(200000000 - fac.getSaldo());
